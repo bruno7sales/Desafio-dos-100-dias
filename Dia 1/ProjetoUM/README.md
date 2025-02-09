@@ -1,18 +1,29 @@
-## Getting Started
+ ![Captura de tela 2025-02-09 121814](https://github.com/user-attachments/assets/c0373c1e-1e8b-43f3-b05d-b71731ef9f30)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Banco - Banking System
+ **This is a simple banking system developed in Java, using Swing to create the graphical user interface (GUI). The application allows users to perform banking operations such as:** 
 
-## Folder Structure
+- Deposits
+- Withdrawals
+- PIX Transfers
+- Account Statement
+- Check Current Balance
+- Exit the application
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
+- Current Balance: Displays the current balance in the account.
+- Deposit: Allows the user to add money to the account.
+- Withdraw: Allows the user to withdraw money from the account, respecting the available balance.
+- PIX: Executes a PIX transfer to another user.
+- Statement: Shows the transaction history.
+- Exit: Closes the application.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+  
+## Technologies Used
+- Java: The primary programming language used for development.
+- Swing: A GUI library used for building the user interface.
+- JDK 11 or higher: Required to compile and run the project.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ 
